@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="100"
+    >
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="15">
+    </TextView>
+
+    <TextView
+        android:id="@+id/NameText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
+    </TextView>
+
+    <TextView
+        android:id="@+id/PhoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="25">
+    </TextView>
+
+    <TextView
+        android:id="@+id/EmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="25">
+    </TextView>
+
+</LinearLayout>
